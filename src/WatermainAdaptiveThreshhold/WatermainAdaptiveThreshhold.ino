@@ -2,8 +2,8 @@
 *  -Monitors pressure to detect plumbing leaks and expansion tank failures
 *  -Controls water valve to automatically shut off water main to limit water damage
 *  -Can interface with home assistant as dashboard to monitor and provide enhanced flexibility, monitoring and control.
-*  -0427 add tnDelta,leakyPeakSec
-*  -1126 add valve override to enable manual control
+*  -230427 add tnDelta,leakyPeakSec
+*  -231126 add valve override to enable manual control
 *  -     add leak detected msg and processing
 * Copyright notice and License:
 * https://github.com/heyitsyang/Whole-House-Water-Leak-Controller/commit/76a994445063ba2c73685ae3f3dfd85af23381c9
@@ -23,7 +23,7 @@
   // Additional definitions REJ begin:
   // *********************
   
-  #define VERSION "h20_2023_0427" 
+  #define VERSION "h20_2023_1126" 
   
   // variables which support water pressure monitoring to detect water leak based on duration of reduced pressure. 
   int flowIntervalLimitSec = 600;  // time limit in seconds for water flow which if exceeded causes the valve to close.
