@@ -1,5 +1,7 @@
-# Whole House Water Leak Detection & Valve Control with Adaptive Threshold Implementation
+# Smart Home Tiny Leak Detection & Shutoff w/o Impeller
 
+- Detect leaks as small as 5 cups using adaptive threshhold software
+  
 - This project starts with Yang's project at https://github.com/heyitsyang/Whole-House-Water-Leak-Controller .
 	- Components
    
@@ -13,9 +15,9 @@
        		
 - Optional Valve Controller adaptations
    
-	- Buck converter is replaced by dedicated 5v usb supply wall wart for ESP8266.
+	- Buck converter may be replaced by dedicated 5v usb supply wall wart for ESP8266.
     
-  	- Standard enclosure is substituted for custom 3D printed electronics enclosure.
+  	- Standard enclosure may be substituted for custom 3D printed electronics enclosure.
       
 ![Install](media/Installation.jpg)
     
@@ -29,7 +31,7 @@
 
 - Detect degraded plumbing joints that cause undetected leaks behind walls
 
-- Friend who purchased house with prior insurance claim for this issue was denied insurance
+- Friend who purchased house with prior insurance claim for leak behind wall was denied insurance
  
 - Impellers corrode and stick over time; added installation and maintenance expense
 
